@@ -1,0 +1,7 @@
+<svg id="bx-chevron-left-circle" xmlns="http://www.w3.org/2000/svg" width="66.666" height="66.666" viewBox="0 0 66.666 66.666">
+  <circle id="Ellipse_52" data-name="Ellipse 52" cx="31" cy="31" r="31" transform="translate(2 2)" fill="#ef8746"/>
+  <g id="bx-chevron-left-circle-2" data-name="bx-chevron-left-circle" transform="translate(73.333 -6.667) rotate(90)">
+    <path id="Path_135" data-name="Path 135" d="M40,6.667A33.333,33.333,0,1,0,73.333,40,33.371,33.371,0,0,0,40,6.667Zm0,60A26.667,26.667,0,1,1,66.667,40,26.7,26.7,0,0,1,40,66.667Z" fill="#703ee2"/>
+    <path id="Path_136" data-name="Path 136" d="M44.31,20.977,25.287,40,44.31,59.023l4.713-4.713L34.713,40l14.31-14.31Z" fill="#703ee2"/>
+  </g>
+</svg>

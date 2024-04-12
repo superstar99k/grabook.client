@@ -1,0 +1,96 @@
+header {
+	position: relative;
+	width: 100%;
+    background: transparent;
+    top: 0;
+    left: 0;
+    z-index: 101;
+	.header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		max-width: 1740px;
+		margin: auto;
+		height: 200px;
+		padding: 0 30px;
+		.header_logo img {
+			width: 275px;
+		}
+		.header_menu {
+			display: flex;
+			align-items: center;
+			gap: 120px;
+			ul.main {
+				display: flex;
+				align-items: center;
+				gap: 100px;
+				li a {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					p {
+						font-family: "Hiragino Kaku Gothic Pro";
+						font-weight: normal;
+						font-size: 20px;
+						letter-spacing: 0.1em;
+						color: #703ee2;
+					}
+					span {
+						font-family: "Co Headline";
+						font-weight: normal;
+						font-size: 14px;
+						letter-spacing: 0.3em;
+						color: #212121;
+					}
+				}
+			}
+			ul.login_register {
+				display: flex;
+				align-items: center;
+				gap: 40px;
+				li {
+					width: 200px;
+					height: 60px;
+					border-radius: 30px;
+					background: #703ee2;
+					box-shadow: 2px 3px 0px #45392f;
+					filter: drop-shadow(-2px -3px 0px rgba(249, 244, 238, 0.6));
+					a {
+						width: 100%;
+						height: 100%;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						p {
+							font-family: "Hiragino Kaku Gothic Pro";
+							font-weight: normal;
+							font-size: 20px;
+							letter-spacing: 0.2em;
+							color: #fff;
+						}
+					}
+					&.register {
+						background: #e4386e;
+					}
+				}
+			}
+		}
+	}
+	&.main {
+		position: fixed;
+		.header {
+			.header_menu {
+				ul.main {
+					li a {
+						p {
+							color: #f7f7f7;
+						}
+						span {
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+	}
+}

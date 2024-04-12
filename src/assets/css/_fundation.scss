@@ -1,0 +1,13 @@
+a {
+  color: var(--bs-body-color);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--bs-body-color);
+  }
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
